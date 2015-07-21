@@ -1,0 +1,21 @@
+# Configuration options
+/app/etc/local.xml
+
+# Magento connect data
+/downloader/.cache
+/downloader/cache.cfg
+/downloader/connect.cfg
+
+# Temporary folders
+/var/*
+!/var/.htaccess
+
+# Uploaded resources
+/media/*
+!/media/.htaccess
+
+# Compiled classes
+/includes/src
+
+# Local apache config
+/.htaccess
