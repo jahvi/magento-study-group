@@ -1,5 +1,6 @@
 # Configuration options
 /app/etc/local.xml
+/errors/local.xml
 
 # Magento connect data
 /downloader/.cache
