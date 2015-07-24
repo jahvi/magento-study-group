@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Jvs_Meeting0202>
+            <version>1.0.0</version>
+        </Jvs_Meeting0202>
+    </modules>
+    <global>
+        <models>
+            <jvs_meeting0202>
+                <class>Jvs_Meeting0202_Model</class>
+            </jvs_meeting0202>
+        </models>
+        <events>
+            <controller_action_predispatch>
+                <observers>
+                    <redirecttohomeurl>
+                        <class>Jvs_Meeting0202_Model_Observer</class>
+                        <method>redirectToHomeUrl</method>
+                    </redirecttohomeurl>
+                </observers>
+            </controller_action_predispatch>
+        </events>
+    </global>
+</config>
