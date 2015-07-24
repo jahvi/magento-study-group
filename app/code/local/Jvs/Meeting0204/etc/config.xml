@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Jvs_Meeting0204>
+            <version>1.0.0</version>
+        </Jvs_Meeting0204>
+    </modules>
+    <frontend>
+        <routers>
+            <customer>
+                <args>
+                    <modules>
+                        <jvs_meeting0204 before="Mage_Customer">Jvs_Meeting0204</jvs_meeting0204>
+                    </modules>
+                </args>
+            </customer>
+        </routers>
+    </frontend>
+</config>

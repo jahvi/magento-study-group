@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Jvs_Meeting0204>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends>
+                <Mage_Customer />
+            </depends>
+        </Jvs_Meeting0204>
+    </modules>
+</config>
