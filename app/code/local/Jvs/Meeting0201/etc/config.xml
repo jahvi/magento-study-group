@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Jvs_Meeting0201>
+            <version>1.0.0</version>
+        </Jvs_Meeting0201>
+    </modules>
+    <global>
+        <models>
+            <jvs_meeting0201>
+                <class>Jvs_Meeting0201_Model</class>
+            </jvs_meeting0201>
+            <sales>
+                <rewrite>
+                    <order>Jvs_Meeting0201_Model_Order</order>
+                </rewrite>
+            </sales>
+        </models>
+    </global>
+</config>
