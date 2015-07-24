@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Jvs_Meeting0205>
+            <version>1.0.0</version>
+        </Jvs_Meeting0205>
+    </modules>
+    <global>
+        <models>
+            <jvs_meeting0205>
+                <class>Jvs_Meeting0205_Model</class>
+            </jvs_meeting0205>
+        </models>
+        <helpers>
+            <jvs_meeting0205>
+                <class>Jvs_Meeting0205_Helper</class>
+            </jvs_meeting0205>
+        </helpers>
+        <events>
+            <controller_action_predispatch>
+                <observers>
+                    <checkpaymentandmagentoversion>
+                        <class>Jvs_Meeting0205_Model_Observer</class>
+                        <method>checkPaymentAndMagentoVersion</method>
+                    </checkpaymentandmagentoversion>
+                </observers>
+            </controller_action_predispatch>
+        </events>
+    </global>
+</config>
