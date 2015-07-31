@@ -4,5 +4,8 @@
         <reference name="left">
             <block type="core/template" name="jvs_date" template="date.phtml"/>
         </reference>
+        <reference name="top.links">
+            <action method="removeLinkByUrl"><url helper="jvs_meeting0302/url/getCheckoutUrl" /></action>
+        </reference>
     </default>
 </layout>

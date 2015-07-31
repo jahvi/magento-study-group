@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Jvs_Meeting0302>
+            <version>1.0.0</version>
+        </Jvs_Meeting0302>
+    </modules>
+    <global>
+        <helpers>
+            <jvs_meeting0302>
+                <class>Jvs_Meeting0302_Helper</class>
+            </jvs_meeting0302>
+        </helpers>
+    </global>
+</config>
