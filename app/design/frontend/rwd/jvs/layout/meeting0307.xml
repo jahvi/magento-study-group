@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+        <reference name="left">
+            <block type="jvs_meeting0307/widget_colorpicker" name="image_border_picker">
+                <action method="setBorderColor"><value>FF0000</value></action>
+                <action method="setImage"><value>http://placehold.it/200x200</value></action>
+            </block>
+        </reference>
+    </default>
+</layout>

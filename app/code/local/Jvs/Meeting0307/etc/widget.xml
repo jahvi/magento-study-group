@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<widgets>
+    <jvs_meeting0307_colorpicker type="jvs_meeting0307/widget_colorpicker" translate="name description">
+        <name>Color Picker</name>
+        <description type="desc">Add image with custom color border</description>
+        <parameters>
+            <border_color translate="label">
+                <visible>1</visible>
+                <required>0</required>
+                <label>Border Color</label>
+                <type>jvs_meeting0307/widget_picker</type>
+            </border_color>
+            <image translate="label">
+                <visible>1</visible>
+                <required>0</required>
+                <label>Image</label>
+                <type>label</type>
+                <helper_block>
+                    <type>jvs_meeting0307/chooser</type>
+                    <data>
+                        <button translate="open">
+                            <open>Insert Image...</open>
+                        </button>
+                    </data>
+                </helper_block>
+            </image>
+        </parameters>
+    </jvs_meeting0307_colorpicker>
+</widgets>
