@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Jvs_Meeting0304>
+            <version>1.0.0</version>
+        </Jvs_Meeting0304>
+    </modules>
+    <frontend>
+        <routers>
+            <jvs_meeting0304>
+                <use>standard</use>
+                <args>
+                    <module>Jvs_Meeting0304</module>
+                    <frontName>meeting0304</frontName>
+                </args>
+            </jvs_meeting0304>
+        </routers>
+        <layout>
+            <updates>
+                <jvs_meeting0304>
+                    <file>meeting0304.xml</file>
+                </jvs_meeting0304>
+            </updates>
+        </layout>
+    </frontend>
+</config>

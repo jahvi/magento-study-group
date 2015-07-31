@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <jvs_meeting0304>
+        <block type="page/html" name="root" output="toHtml" template="page/1column.phtml">
+            <block type="page/html_header" name="header" />
+        </block>
+    </jvs_meeting0304>
+</layout>
