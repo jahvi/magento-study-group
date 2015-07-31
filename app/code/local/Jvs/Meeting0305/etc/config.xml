@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Jvs_Meeting0305>
+            <version>1.0.0</version>
+        </Jvs_Meeting0305>
+    </modules>
+    <global>
+        <blocks>
+            <jvs_meeting0305>
+                <class>Jvs_Meeting0305_Block</class>
+            </jvs_meeting0305>
+            <page>
+                <rewrite>
+                    <html_breadcrumbs>Jvs_Meeting0305_Block_Html_Breadcrumbs</html_breadcrumbs>
+                </rewrite>
+            </page>
+        </blocks>
+    </global>
+</config>
