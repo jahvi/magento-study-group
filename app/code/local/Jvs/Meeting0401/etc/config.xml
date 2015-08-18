@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Jvs_Meeting0401>
+            <version>1.0.0</version>
+        </Jvs_Meeting0401>
+    </modules>
+    <global>
+        <models>
+            <meeting0401>
+                <class>Jvs_Meeting0401_Model</class>
+                <resourceModel>meeting0401_resource</resourceModel>
+            </meeting0401>
+            <meeting0401_resource>
+                <class>Jvs_Meeting0401_Model_Resource</class>
+                <entities>
+                    <comment>
+                        <table>meeting_comments</table>
+                    </comment>
+                </entities>
+            </meeting0401_resource>
+        </models>
+        <resources>
+            <meeting0401_setup>
+                <setup>
+                    <module>Jvs_Meeting0401</module>
+                </setup>
+            </meeting0401_setup>
+        </resources>
+    </global>
+</config>
