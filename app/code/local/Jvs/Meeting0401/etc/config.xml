@@ -2,7 +2,7 @@
 <config>
     <modules>
         <Jvs_Meeting0401>
-            <version>1.0.1</version>
+            <version>1.0.2</version>
         </Jvs_Meeting0401>
     </modules>
     <global>
@@ -27,5 +27,33 @@
                 </setup>
             </meeting0401_setup>
         </resources>
+        <helpers>
+            <meeting0401>
+                <class>Jvs_Meeting0401_Helper</class>
+            </meeting0401>
+        </helpers>
+        <blocks>
+            <meeting0401>
+                <class>Jvs_Meeting0401_Block</class>
+            </meeting0401>
+        </blocks>
     </global>
+    <frontend>
+        <layout>
+            <updates>
+                <meeting0401>
+                    <file>meeting0401.xml</file>
+                </meeting0401>
+            </updates>
+        </layout>
+        <routers>
+            <meeting0401>
+                <use>standard</use>
+                <args>
+                    <module>Jvs_Meeting0401</module>
+                    <frontName>meeting0401</frontName>
+                </args>
+            </meeting0401>
+        </routers>
+    </frontend>
 </config>
