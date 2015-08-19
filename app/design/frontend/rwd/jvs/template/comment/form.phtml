@@ -1,3 +1,15 @@
+<ul>
+    <?php
+        $comments = Mage::getModel('meeting0401/comment')->getCollection()->addPageFilter();
+
+        foreach ($comments as $comment) :
+    ?>
+        <li>
+            <?php echo $this->escapeHtml($comment->getComment()); ?>
+        </li>
+    <?php endforeach; ?>
+</ul>
+
 <form action="<?php echo $this->getAction(); ?>" method="post" id="review-form">
     <?php echo $this->getBlockHtml('formkey'); ?>
     <h3>Leave a comment</h3>

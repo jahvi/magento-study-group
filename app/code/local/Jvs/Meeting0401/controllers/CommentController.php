@@ -11,6 +11,7 @@ class Jvs_Meeting0401_CommentController extends Mage_Core_Controller_Front_Actio
         $commentData = $this->getRequest()->getPost('comment');
 
         $session = Mage::getSingleton('core/session');
+        $session->setRefererUrl($this->_getRefererUrl());
 
         if (!empty($commentData)) {
             try {
