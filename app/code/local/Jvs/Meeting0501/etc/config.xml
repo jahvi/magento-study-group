@@ -2,10 +2,15 @@
 <config>
     <modules>
         <Jvs_Meeting0501>
-            <version>1.0.0</version>
+            <version>1.0.7</version>
         </Jvs_Meeting0501>
     </modules>
     <global>
+        <models>
+            <meeting0501>
+                <class>Jvs_Meeting0501_Model</class>
+            </meeting0501>
+        </models>
         <resources>
             <meeting0501_setup>
                 <setup>
