@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Jvs_Meeting0501>
+            <version>1.0.0</version>
+        </Jvs_Meeting0501>
+    </modules>
+    <global>
+        <resources>
+            <meeting0501_setup>
+                <setup>
+                    <module>Jvs_Meeting0501</module>
+                    <class>Mage_Eav_Model_Entity_Setup</class>
+                </setup>
+            </meeting0501_setup>
+        </resources>
+    </global>
+</config>
